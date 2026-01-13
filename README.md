@@ -5,9 +5,9 @@ Each sample highlights a specific refinement introduced in C# 7.3, plus notes on
 
 ---
 
-## 🚀 What’s in this repo
+## What’s in this repo
 
-### 1) Expression variables in more locations (`P119_ExpressionVariablesMoreLocations`)
+### P123_ExpressionVariablesMoreLocations
 - **What’s new**: `out var` / pattern variables can appear in **more contexts** than before (e.g., field/property initializers, attribute arguments, query clauses, constructor initializers).
 - **Example**:
   ```csharp
@@ -20,7 +20,7 @@ Each sample highlights a specific refinement introduced in C# 7.3, plus notes on
 
 ---
 
-### 2) Overload resolution: fewer ambiguities (`P120_OverloadResolutionFewerAmbiguities`)
+### P124_OverloadResolutionFewerAmbiguities
 - **What’s new**: The compiler is better at picking the **best** overload in tricky cases, reducing “ambiguous call” errors.
 - **Example** (illustrative):
   ```csharp
@@ -34,7 +34,7 @@ Each sample highlights a specific refinement introduced in C# 7.3, plus notes on
 
 ---
 
-### 3) Compiler options notes (`P121_CompilerOptionsNotes`)
+### P125_CompilerOptionsNotes
 - **Topics shown**:
   - `-publicsign` — produce a publicly signed assembly (useful for OSS where you don’t share a private key).
   - `-pathmap` — remap source paths in PDBs (deterministic builds, SourceLink, reproducibility).
@@ -43,7 +43,7 @@ Each sample highlights a specific refinement introduced in C# 7.3, plus notes on
 
 ---
 
-## ✨ Other notable C# 7.3 features (context)
+## Other notable C# 7.3 features (context)
 
 While this “extras” repo focuses on the three topics above, C# 7.3 added several more improvements you may see in other samples:
 
@@ -60,11 +60,11 @@ These fit the broader 7.x theme of performance, interop, and expressiveness.
 
 ---
 
-## 📂 Repository structure
+## Repository structure
 
-- `P119_ExpressionVariablesMoreLocations` → expression variables in additional contexts  
-- `P120_OverloadResolutionFewerAmbiguities` → improved overload resolution  
-- `P121_CompilerOptionsNotes` → notes on `-publicsign`, `-pathmap`
+- `P123_ExpressionVariablesMoreLocations` → expression variables in additional contexts  
+- `P124_OverloadResolutionFewerAmbiguities` → improved overload resolution  
+- `P125_CompilerOptionsNotes` → notes on `-publicsign`, `-pathmap`
 
 ---
 
